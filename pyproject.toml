@@ -1,0 +1,11 @@
+[project]
+name = "coinche"
+version = "0.1.0"
+description = "A real-time, multiplayer, game of Coinche for the terminal"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "textual-dev>=1.6.1",
+    "textual>=0.86.1",
+    "websockets>=14.1",
+]
